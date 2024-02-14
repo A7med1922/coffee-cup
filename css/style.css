@@ -86,6 +86,9 @@ nav ul .ul-bg li a:hover::before{
     transform: scaleX(1);
     transform-origin: left;
 }
+nav ul .ul-bg .list .pages p  a:hover::before {
+    transform: scaleX(0);
+}
 nav ul .ul-bg li  .mark{
     color: var(--maincolor1);
 } 
